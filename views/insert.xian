@@ -1,0 +1,23 @@
+{{> head}}
+<form method="POST"
+action="/insert">
+
+  
+
+<label for="DeviceName">DeviceName</label>
+<input type="text" name="DeviceName" placeholder="DeviceName">
+           
+<label for="DeviceName">Description</label>
+<input type="text" name="Description" placeholder="Description" >
+
+<label for="DeviceName">Model </label>
+<input type="text" name="Model" placeholder="Model">
+
+<label for="DeviceName">DeviceType </label>
+<input type="text" name="DeviceType" placeholder="DeviceType" >
+
+<label for="DeviceName">TotalNumber </label>
+<input type="text" name="TotalNumber"placeholder="TotalNumber" >
+
+<input type="Submit" name="Save">
+</form> 

@@ -1,0 +1,35 @@
+{{> head }} 
+ <body class="bg-gray-50"> 
+  <!-- <div class="container mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold text-center mt-10">Welcome to XianFire 🔥</h1>
+    <p class="text-center mt-4">Home Page</p> 
+ </div> -->
+ 
+    <a href="/add" class="text-red-600 font-medium" > Add New </a>
+ <table>
+    <tr>
+        <td>DeviceName</td>
+         <td>  Description</td>        
+               <td>Model</td>
+             <td>DeviceType</td>
+              <td>TotalNumber</td>
+
+
+
+    </tr>       
+{{#each data}}
+<tr>
+        <td>{{DeviceName}}</td>
+        <td>{{Description}}</td>
+        <td>{{Model}}</td>
+        <td>{{DeviceType}}</td>
+        <td>{{TotalNumber}}</td>
+      <td>
+        <a href="/edit/{{id}}">Edit</a>  | 
+        <a href="/delete/{{id}}">Delete</a>
+      
+      </td></tr>
+{{/each}}
+
+</table> 
+4

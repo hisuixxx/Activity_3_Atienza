@@ -1,0 +1,21 @@
+{{> head}}
+<form method="POST"      action="/edit/{{data.id}}">
+<input type="hidden" name="id"     value="{{data.id}}">
+
+<label for="DeviceName">DeviceName</label>
+<input type="text" name="DeviceName" placeholder="DeviceName" value="{{data.DeviceName}}">
+           
+<label for="DeviceName">Description</label>
+<input type="text" name="Description" placeholder="Description" value="{{data.Description}}">
+
+<label for="DeviceName">Model </label>
+<input type="text" name="Model" placeholder="Model" value="{{data.Model}}">
+
+<label for="DeviceName">DeviceType </label>
+<input type="text" name="DeviceType" placeholder="DeviceType" value="{{data.DeviceType}}">
+
+<label for="DeviceName">TotalNumber </label>
+<input type="text" name="TotalNumber"placeholder="TotalNumber"value="{{data.TotalNumber}}">
+
+<input type="Submit" name="Save">
+</form> 

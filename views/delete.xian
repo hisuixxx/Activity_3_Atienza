@@ -1,0 +1,6 @@
+
+  <form method="POST" action="/delete/{{id}}" >
+          <button type="submit">Delete</button>
+        </form>
+
+    
